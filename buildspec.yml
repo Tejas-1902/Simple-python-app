@@ -15,7 +15,7 @@ phases:
       - echo "Running Python tests..."
       - pytest
       - echo "Building Docker image..."
-      - docker build -t simple-python-app .
+      - docker build -t Simple-python-app .
 
   post_build:
     commands:
